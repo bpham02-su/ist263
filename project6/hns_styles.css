@@ -1,0 +1,287 @@
+#hns_message{
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding:20px;
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: -2px;
+    background-color: rgb(162, 177, 164);
+    
+}
+#logo{
+    padding-left: 35px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #E8F3EC;
+}
+
+.social_media{
+    font-size: 2.5em;
+    padding-top: 45px;
+}
+
+
+.hns_nav{  
+    display:flex;
+    font-size: 2.5em;
+    padding-top: 35.25px;
+    padding-left: 50px;
+    font-family: "Kaisei Opti", serif;
+}
+.hns_mobile_nav{
+    display: none;
+}
+
+.hns_nav a{
+     margin-left: 35px;
+     color: #2C3E50;
+     text-decoration: none;
+}
+
+.hns_nav a:hover{
+     color:#A8C1B0;
+}
+
+
+.social_media{
+    display:flex;
+    padding-right: 65px;
+    
+}
+
+.social_media a{
+    color:#2C3E50   
+}
+
+.social_media a:hover{
+    color:#A8C1B0;
+}
+
+
+
+.social_media_footer{
+    font-size: 2.5em;
+    padding-top: 45px;
+}
+
+
+.social_media_footer{
+    display:flex;
+    padding-right: 65px;
+    
+}
+
+.social_media_footer a{
+    color:#2C3E50   
+}
+
+.social_media_footer a:hover{
+    color:#A8C1B0;
+}
+
+
+
+
+.fa-solid,.fa-bars{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-us{
+    display:flex;
+    justify-content: center;
+}
+.about-us-ig{
+    padding-right: 50px;
+    
+}
+
+
+.about-text{
+    font-family: "Kaisei Opti", serif;
+    padding-right: 35px;
+    margin-right: 5px;
+    max-width: 870px ;
+}
+
+
+
+.about-text h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+.about-text p{
+    font-size: 1em;
+    line-height: 1.6;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hns_footer{
+    padding: 25px ;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#E8F3EC ;
+}
+
+.hns_footer a{
+    color:#2C3E50  
+}
+
+.hns_footer a:hover{
+    color:#A8C1B0;
+}
+.copyright{
+    padding-top: 40px;
+}
+
+.hns_rights{
+    padding-left: 35px;
+}
+body {
+    background-color: #FCEEEE;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .hns_nav,.social_media{  
+    display:none; 
+}
+
+
+    .fa-solid,.fa-bars{
+    display: block;
+    font-size: 3.75em ;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: flex-start;
+
+}
+    .hns_mobile_nav.show-nav{
+        display: flex;
+        flex-direction: column;
+        font-family: "Kaisei Opti", serif;
+        font-size: 200%;
+        margin-top: -20px;
+    }
+
+    .hns_mobile_nav.show-nav a{
+        text-decoration: none;
+        color:#2C3E50;
+        background-color: #e7e7e7;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        border: solid #2C3E50 1px;
+    }
+
+    /* .hns_mobile_nav.show-nav p{
+        display: flex;
+        flex-direction: column;
+    } */
+    .about-us{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .about-us-ig img{
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        height: auto;
+        padding-left: 25px;   
+    } 
+
+
+    .about-text{
+        display: block;
+        padding:15px;
+        margin-bottom: 5px;
+    }
+    .hns_footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .hours_location{
+        display:flex;
+        justify-content: space-between;
+    }
+    .hours{
+        margin-right: 70px;
+        padding-right:20px ;
+    }
+    .hns_time{
+        display:block;
+    }
+   
+    .contact{
+        display: flex;
+    }
+
+    .number{
+        margin-right: 65px;     
+    }
+    .hns_message_us{
+        padding-top: 13.25px;
+    }
+    .social_media_footer{
+        padding-left: 48.5px;
+    }
+
+
+
+
+}
