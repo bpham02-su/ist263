@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px){
+    body{
+        background-color: hsl(195, 59%, 32%);
+        
+        
+    }
+
+    #icon{margin-left:135px}
+    .hi{display: flex; flex-direction: column;justify-content: center; align-items: center;}
+    .button1, .button2{
+
+            width:75%;
+            height:auto;
+            
+        }
+        p{color: antiquewhite;}
+        
+    .cuse{text-align: center;}
+        
+
+}
