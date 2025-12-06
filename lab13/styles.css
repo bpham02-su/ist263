@@ -61,7 +61,7 @@ p {
 
 .skip{color: #000000;}
 nav {
-  background-color: #8a8e78; 
+  background-color: #141413; 
   padding: 10px;
   margin-bottom: 30px; 
 }
@@ -73,6 +73,7 @@ nav {
   color:white
 }
 
+.bar{color:white;}
 
 #content1{
 
