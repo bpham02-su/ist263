@@ -91,7 +91,7 @@ nav a:hover {
 .copyright{
   float: left;
   margin-right: 900px;
-  
+  clear: both;
 }
 
 
