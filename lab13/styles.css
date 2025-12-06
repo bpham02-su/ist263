@@ -59,7 +59,7 @@ p {
 
 }
 
-
+.skip{color: #000000;}
 nav {
   background-color: #8a8e78; 
   padding: 10px;
@@ -74,7 +74,7 @@ nav {
 }
 
 
-.content{
+#content1{
 
   padding: 25px;
 
@@ -104,6 +104,8 @@ nav a:hover {
 
 }
 
+.quote{padding-left: 750px;}
+
 @media only screen and (max-width: 768px){
 
   nav a{
@@ -120,6 +122,7 @@ nav a:hover {
   }
 
 }
+
 
 
 
