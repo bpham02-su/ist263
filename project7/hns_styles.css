@@ -1,0 +1,552 @@
+.visually-hidden {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+
+@keyframes appear {
+
+    from {
+        opacity: 0;
+
+    }
+
+    to {
+        opacity: 1;
+
+    }
+
+}
+
+p{font-size: 100%;}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#hns_message {
+    padding: 20px;
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: -2px;
+    background-color: rgb(162, 177, 164);
+
+}
+
+#logo {
+    padding-left: 35px;
+}
+
+
+.skip {
+    margin-left: 15px;
+    font-family: "Kaisei Opti", serif;
+    transform: translateY(-120%);
+    position: absolute;
+    background-color: #aae9c1;
+    color: #333333;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    border-radius: 0 0 0.25rem 0.25rem;
+    padding :.5rem 1.5rem;
+    border: 1px solid #f6ddf8;
+}
+
+
+.skip:focus{
+    transform: translateY(0);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #E8F3EC;
+}
+
+.social_media {
+    font-size: 2.5em;
+    padding-top: 45px;
+    display: flex;
+    padding-right: 65px;
+}
+
+
+.hns_nav {
+    display: flex;
+    font-size: 2.5em;
+    padding-top: 35.25px;
+    padding-left: 50px;
+    font-family: "Kaisei Opti", serif;
+}
+
+.hns_mobile_nav {
+    display: none;
+}
+
+.hns_nav a {
+    margin-left: 35px;
+    color: #2C3E50;
+    text-decoration: none;
+}
+
+.hns_nav a:hover {
+    color: #A8C1B0;
+}
+
+
+
+
+.social_media a {
+    color: #2C3E50
+}
+
+.social_media a:hover {
+    color: #A8C1B0;
+}
+
+
+
+.social_media_footer {
+    font-size: 2.5em;
+    padding-top: 45px;
+}
+
+
+.social_media_footer {
+    display: flex;
+    padding-right: 65px;
+
+}
+
+.social_media_footer a {
+    color: #2C3E50
+}
+
+.social_media_footer a:hover {
+    color: #A8C1B0;
+}
+
+
+
+
+.fa-solid.fa-bars {
+    display: none;
+}
+
+
+
+
+
+
+.banner img {
+    max-width: 100%;
+    margin-top: -19.45px;
+}
+
+
+
+.customer_reviews h2 {
+    text-align: center;
+    font-family: "Kaisei Opti", serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 4em;
+}
+
+.customer_reviews {
+    margin-bottom: 50px;
+    animation: appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+}
+
+.reviews {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid_section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.photo_gallery {
+    margin-bottom: 150px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.photo_gallery h2 {
+    text-align: center;
+    font-family: "Kaisei Opti", serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 4em;
+}
+
+.photo_gallery figure {
+    border: 1px solid #f6ddf8;
+    padding: 25px;
+    background-color: #aae9c1;
+    border-radius: 15px 50px 30px;
+}
+
+.photo_gallery img {
+    width: 100%;
+}
+
+.five_stars p {
+    font-size: 2em;
+    text-align: center;
+}
+
+.individual_review {
+    width: 350px;
+}
+
+.description p {
+    font-family: "Kaisei Opti", serif;
+
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+#healthy_nails,
+#acrylic_nails,
+#anc_dip_powder_nails,
+#gel_nails,
+#nail_care,
+#waxing,
+#kids_menu,
+#addtional_services {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    font-family: "Kaisei Opti", serif;
+    color: rgb(255, 255, 255);
+    width: 350px;
+    height: 650px;
+    padding: 1.5rem;
+    /* padding-bottom: 250px; */
+    border: 1px solid #f6ddf8;
+    box-sizing: border-box;
+    background-color: #A8C1B0;
+    /* Or any desired leaf color */
+    border-radius: 15px 50px 30px;
+}
+
+
+
+#healthy_nails dt,
+#acrylic_nails dt,
+#anc_dip_powder_nails dt,
+#gel_nails dt,
+#nail_care dt,
+#waxing dt,
+#kids_menu dt,
+#addtional_services dt {
+    margin-top: 5px;
+}
+
+
+
+
+
+.hns_menu_section {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+
+
+.menu_list {
+    display: flex;
+    gap: 3rem;
+}
+
+dt {
+    margin: 0;
+}
+
+dd {
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-us {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-ig {
+    padding-right: 50px;
+
+}
+
+
+.about-text {
+    font-family: "Kaisei Opti", serif;
+    padding-right: 35px;
+    margin-right: 5px;
+    max-width: 870px;
+    opacity: 0;
+    animation: fadeIn 1.15s ease-out forwards;
+}
+
+
+
+.about-text h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.about-text p {
+    font-size: 1em;
+    line-height: 1.6;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hns_footer {
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E8F3EC;
+}
+
+.hns_footer a {
+    color: #2C3E50
+}
+
+.hns_footer a:hover {
+    color: #A8C1B0;
+}
+
+.copyright {
+    padding-top: 40px;
+}
+
+.hns_rights {
+    padding-left: 35px;
+}
+
+body {
+    background-color: #FCEEEE;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .skip {
+    padding :.25rem 1.0rem;
+   
+}
+    .skip:focus{transform: translateY(240%);}
+    
+    .hns_nav,   
+    .social_media {
+        display: none;
+    }
+
+    .reviews {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .grid_section {
+        flex-direction: column;
+    }
+
+    .photo_gallery {
+        margin-bottom: 50px;
+    }
+    .customer_reviews h2 {
+        margin: 5px;
+        text-align: center;
+        font-family: "Kaisei Opti", serif;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 3.25em;
+    }
+
+    .photo_gallery h2 {
+        text-align: center;
+        font-family: "Kaisei Opti", serif;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        font-size: 3.25em;
+    }
+
+    .fa-solid.fa-bars {
+        display: block;
+        font-size: 3.75em;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: flex-start;
+
+    }
+
+    .hns_mobile_nav.show-nav {
+        display: flex;
+        flex-direction: column;
+        font-family: "Kaisei Opti", serif;
+        font-size: 200%;
+        margin-top: -20px;
+        margin-bottom: 19.75px;
+    }
+
+    .hns_mobile_nav.show-nav a {
+        text-decoration: none;
+        color: #2C3E50;
+        background-color: #e7e7e7;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-top: 5px;
+        border: solid #2C3E50 1px;
+    }
+
+    /* .hns_mobile_nav.show-nav p{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .hns_menu_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us {
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    .about-us-ig img {
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        height: auto;
+        padding-left: 25px;
+    }
+
+
+    .about-text {
+        display: block;
+        padding: 15px;
+        margin-bottom: 5px;
+    }
+
+    .hns_footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hours_location {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hours {
+        margin-right: 70px;
+        padding-right: 20px;
+    }
+
+    .hns_time {
+        display: block;
+    }
+
+    .contact {
+        display: flex;
+    }
+
+    .number {
+        margin-right: 65px;
+    }
+
+    .hns_message_us {
+        padding-top: 13.25px;
+    }
+
+    .social_media_footer {
+        padding-left: 48.5px;
+    }
+
+
+
+
+}
