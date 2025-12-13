@@ -242,7 +242,6 @@ p{font-size: 100%;}
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
     font-family: "Kaisei Opti", serif;
-    color: rgb(255, 255, 255);
     width: 350px;
     height: 650px;
     padding: 1.5rem;
